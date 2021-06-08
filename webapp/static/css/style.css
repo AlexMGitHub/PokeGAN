@@ -1,0 +1,44 @@
+/* CSS styles */
+#header_div {
+    position: relative;
+    text-align: center;
+}
+#header_img {
+    width: 300px;
+}
+#bg_div {
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+#bg_img {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;    
+    width: 400px;
+}
+#poke_img {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    top: -50px;
+    left: -164px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#btn_container {
+    position: relative;
+    display: block;
+    height: 50px;
+}
+#center_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

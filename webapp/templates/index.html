@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pok&eacute;mon Generator!</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header_div">
+        <img id="header_img" src="static/img/PokeGAN.png" alt="Pok&eacute;GAN">
+    </div>
+	<div id="bg_div">
+    	<img id="bg_img" src="static/img/who_pokemon_large.jpeg" alt="Who's that Pok&eacute;mon?">
+        <img id="poke_img" src="{{ filename }}" alt="Who's that Pok&eacute;mon?">
+    </div>
+	<div id="btn_container">
+    	<div id="center_container">
+        	<button type="button" id="myBtn" onclick="genPokemon()">Generate!</button>
+        </div>
+    </div>
+  </body>
+</html>
+<script src="/static/js/script.js"></script>
