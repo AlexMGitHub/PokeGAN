@@ -4,10 +4,10 @@
 
 
 ## Pok&eacute;GAN: Gotta Generate 'em All!
-I trained a Wasserstein GAN with gradient penalty (WGAN-GP) to generate images of Pok&eacute;mon.  The Jupityer notebook in this repository goes through the entire process of from obtaining the data using a webscraper, to training the WGAN-GP, to deploying the generator with a Flask web app.  The web app itself is also checked into the repository.
+I trained a Wasserstein GAN with gradient penalty (WGAN-GP) to generate images of Pok&eacute;mon.  The Jupyter notebook in this repository goes through the entire process of from obtaining the data using a webscraper, to training the WGAN-GP, to deploying the generator with a Flask web app.  The web app itself is also checked into the repository.
 
  
-Training the GAN required about 24 hours of training on a laptop with an Intel Core i7-6820HQ CPU @ 2.70GHz and an NVIDIA Quadro M2002M GPU (CUDA Compute Capability 5.0).
+Training the GAN required about 24 hours on a laptop with an Intel Core i7-6820HQ CPU @ 2.70GHz and an NVIDIA Quadro M2002M GPU (CUDA Compute Capability 5.0).
 
 I wrote the code in Python 3.8 and used Fast.ai v2 to install most of the dependencies needed to run the notebook.  A **requirements.txt** file is included for convenience.  
 
