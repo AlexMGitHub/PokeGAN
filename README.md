@@ -17,10 +17,12 @@ The files of interest are:
  * **app.py** Runs the Flask web server app that generates random Pok&eacute;mon images.
 
 
-For results and discussion, refer to *PokeGAN.ipynb.*
+For results and discussion, refer to *PokeGAN.ipynb.*  
 
 ## The Pok&eacute;GAN Webapp
 You can try out the generator yourself!  Install Flask, navigate to the "webapp" directory, open a console and type `flask run`.  Navigate to 127.0.0.1:5000 in your browser and generate some Pok&eacute;mon!
+
+**Note:** I could not include the trained GAN models in this repo as they exceed GitHub's 100 MB file size limit.  Run the Jupyter notebook to generate the models before running the web app.
 
 ![PokeGAN Webapp](docs/img/webapp.png "Pok&eacute;GAN Webapp")
 

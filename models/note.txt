@@ -1,0 +1,1 @@
+Note: I could not include the trained GAN models in this repo as they exceed GitHub's 100 MB file size limit.  Run the Jupyter notebook to generate the models before running the web app.
